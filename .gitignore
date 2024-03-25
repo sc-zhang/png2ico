@@ -1,5 +1,6 @@
 .DS_Store
 .vscode
+.vs
 .idea
 *.pyc
 __pycache__
@@ -11,3 +12,5 @@ __pycache__
 venv
 build
 dist
+bin
+obj
