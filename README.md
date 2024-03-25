@@ -1,6 +1,6 @@
 ## Introduction
 The png2ico is a simple tool for converting png file to ico file or ico file to png file. 
-As a GUI tool created by Python with PySide6 and packaged with nuitka, the file size of the 
+As a GUI tool created by Python with PySide6 and packaged by nuitka, the file size of the 
 executable file is big 😂.
 
 ## Usage
