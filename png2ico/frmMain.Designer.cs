@@ -36,12 +36,10 @@
             // lblPicView
             // 
             this.lblPicView.AllowDrop = true;
-            this.lblPicView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblPicView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblPicView.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblPicView.BackColor = System.Drawing.SystemColors.Window;
             this.lblPicView.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblPicView.Location = new System.Drawing.Point(83, 105);
+            this.lblPicView.Location = new System.Drawing.Point(40, 56);
             this.lblPicView.Name = "lblPicView";
             this.lblPicView.Size = new System.Drawing.Size(128, 128);
             this.lblPicView.TabIndex = 0;
@@ -50,24 +48,25 @@
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.BackColor = System.Drawing.SystemColors.Window;
             this.label1.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(9, 26);
+            this.label1.Location = new System.Drawing.Point(4, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(279, 36);
+            this.label1.Size = new System.Drawing.Size(201, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Drag PNG/ICO here";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(298, 304);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(209, 211);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblPicView);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

@@ -112,7 +112,7 @@ namespace png2ico
             }
             else
             {
-                MessageBox.Show("File format not support", "PNG2ICO",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("File format not support", "PNG2ICO", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 bmp = null;
             }
             return bmp;
